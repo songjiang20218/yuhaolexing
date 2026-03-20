@@ -1,0 +1,88 @@
+{
+  "pages": [
+    {
+      "name": "Amazon",
+      "link": "./Amazon/index.html"
+    },
+    {
+      "name": "Binance",
+      "link": "./Binance/index.html"
+    },
+    {
+      "name": "Bitwarden",
+      "link": "./Bitwarden/index.html"
+    },
+    {
+      "name": "Coinbase",
+      "link": "./Coinbase/index.html"
+    },
+    {
+      "name": "Crypto",
+      "link": "./Crypto/index.html"
+    },
+    {
+      "name": "Discord",
+      "link": "./Discord/index.html"
+    },
+    {
+      "name": "Dropbox",
+      "link": "./Dropbox/index.html"
+    },
+    {
+      "name": "Evernote",
+      "link": "./Evernote/index.html"
+    },
+    {
+      "name": "Facebook",
+      "link": "./Facebook/index.html"
+    },
+    {
+      "name": "Fortnite",
+      "link": "./Fortnite/index.html"
+    },
+    {
+      "name": "GitHub",
+      "link": "./GitHub/index.html"
+    },
+    {
+      "name": "Google",
+      "link": "./Google/index.html"
+    },
+    {
+      "name": "Instagram",
+      "link": "./Instagram/index.html"
+    },
+    {
+      "name": "Microsoft",
+      "link": "./Microsoft/index.html"
+    },
+    {
+      "name": "PayPal",
+      "link": "./PayPal/index.html"
+    },
+    {
+      "name": "Protonmail",
+      "link": "./Protonmail/index.html"
+    },
+    {
+      "name": "Snapchat",
+      "link": "./Snapchat/index.html"
+    },
+    {
+      "name": "Tesla",
+      "link": "./Tesla/index.html"
+    },
+    {
+      "name": "Twitch",
+      "link": "./Twitch/index.html"
+    },
+    {
+      "name": "Twitter",
+      "link": "./Twitter/index.html"
+    },
+    {
+      "name": "Uphold",
+      "link": "./Uphold/index.html"
+    }
+  ]
+}

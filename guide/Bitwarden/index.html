@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densitydpi=device-dpi" />
+    <title>Authenticator App</title>
+
+
+</head>
+<style>
+    * {
+        -webkit-touch-callout: none;
+        /*系统默认菜单被禁用*/
+        -webkit-user-select: none;
+        /*webkit浏览器*/
+        -khtml-user-select: none;
+        /*早期浏览器*/
+        -moz-user-select: none;
+        /*火狐*/
+        -ms-user-select: none;
+        /*IE10*/
+        user-select: none;
+        margin: 0;
+        padding: 0;
+        font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
+    }
+    
+    input,
+    textarea {
+        -webkit-user-select: auto;
+    }
+    
+    div,
+    span,
+    a {
+        letter-spacing: 0.5px;
+    }
+    
+    body {
+        margin: 0;
+        padding: 0;
+        background: #F9F9F9;
+    }
+    
+    #app {
+        min-height: 100vh;
+        width: 100%;
+        padding: 0 16px;
+        box-sizing: border-box;
+    }
+
+    .content {
+        /* padding-top: 106px; */
+        padding: 24px 0;
+    }
+    
+    .content>.title {
+        font-size: 16px;
+        font-family: PingFangSC-Medium, PingFang SC;
+        font-weight: 500;
+        color: #333333;
+        line-height: 22px;
+        margin-bottom: 8px;
+    }
+    
+    .content>.grey-text {
+        font-size: 12px;
+        font-family: PingFangSC-Regular, PingFang SC;
+        font-weight: 400;
+        color: #999999;
+        line-height: 17px;
+        margin-bottom: 18px;
+    }
+    
+    .content>.step {
+        font-size: 18px;
+        font-family: PingFangSC-Medium, PingFang SC;
+        font-weight: 500;
+        color: rgba(51, 51, 51, 1);
+        line-height: 25px;
+        margin-bottom: 8px;
+    }
+    
+    .content>.step>span {
+        color: #0071FF;
+    }
+    
+    .content>.dark-text {
+        font-size: 13px;
+        font-family: PingFangSC-Regular, PingFang SC;
+        font-weight: 400;
+        color: #333333;
+        line-height: 22px;
+        display: flex;
+        align-items: center;
+        margin-bottom: 14px;
+        flex-wrap: wrap;
+    }
+</style>
+
+<body>
+    <div id="app">
+        <div class="content">
+            <div class="title">Enable 2FA for Bitwarden</div>
+            <div class="grey-text">
+                Sign into your Bitwarden account, and visit your Account page at
+                <a href="https://bitwarden.com/" style="text-decoration: none;color:rgba(0, 113, 255, 1);">https://bitwarden.com/</a>
+            </div>
+            <div class="step">
+                <span>Step 1: </span> Locate the 2FA settings first
+            </div>
+            <div class="dark-text">
+                ① My Account
+                <img style="width: 20px;height:20px;margin: 0 2px;" src="./guide/icon_arrow@3x.png" alt="">② Account Settings <img style="width: 20px;height:20px;margin: 0 2px;" src="./guide/icon_arrow@3x.png" alt="">③ Security<img style="width: 20px;height:20px;margin: 0 2px;"
+                    src="./guide/icon_arrow@3x.png" alt="">④ Two-step Login
+            </div>
+            <img style="width: 100%;margin-bottom: 24px;" src="./guide/pic_Bitwarden_1@3x.png" alt="">
+            <div class="step">
+                <span>Step 2: </span> Enable Authentication App
+            </div>
+            <div class="dark-text">
+                Enable Authentication app Setup 2FA.
+            </div>
+            <img style="width: 100%;margin-bottom: 24px;" src="./guide/pic_Bitwarden_2@3x.png" alt="">
+            <div class="step">
+                <span>Step 3: </span> Add account to Authenticator App
+            </div>
+            <div class="dark-text">
+                "Scan QR code" or "Enter manually", or you can take a sceenshot of QR code, and "Import from Photo" to add account to Authenticator App.
+            </div>
+            <img style="width: 100%;margin-bottom: 24px;" src="./guide/pic_Bitwarden_3@3x.png" alt="">
+            <div class="step">
+                <span>Step 4: </span> Verify your Code
+            </div>
+            <div class="dark-text">
+                Return to Bitwarden App and enter the Code to verify.
+            </div>
+            <img style="width: 100%;margin-bottom: 18px;" src="./guide/pic_Bitwarden_4@3x.png" alt="">
+            <div style="font-size: 13px;line-height: 18px;" class="grey-text">When you're all set up,you can safely use 2FA now.</div>
+        </div>
+    </div>
+</body>
+
+</html>
